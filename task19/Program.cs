@@ -18,11 +18,6 @@ for (int i = 0; i < fullNumber.Length; i++)
     ch[i] = fullNumber[i];
 }
 
-foreach (char c in ch)
-{
-    Console.WriteLine(c);
-}
-
 if (fullNumber.Length == 5)
 {
     int num1 = fullNumber[0];
