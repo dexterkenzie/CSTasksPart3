@@ -32,7 +32,7 @@ if (fullNumber.Length == 5)
     if (num1 == num5 && num2 == num4)
         Console.WriteLine("Число является палиндромом.");
         else
-            Console.WriteLine("Число не является палиндромом.");
+            Console.WriteLine("Это не палиндром.");
 }
 else
     Console.WriteLine("Вы ввели некорректное число. Нужно набрать пятизначное число. Пожалуйста, попробуйте снова.");
